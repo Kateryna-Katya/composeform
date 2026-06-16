@@ -5,3 +5,40 @@
     background-size: cover;
     height: 812px;
 }
+.home-wrapper{
+    margin-top: 100px;
+}
+.home-title{
+font-family: "Syne", sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ecf8ff;
+}
+.desk{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+.home-section{
+    background-image: url("/img/home/desk.png");
+
+}
+.home-wrapper{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.home-title{
+font-size: 116px;
+    letter-spacing: 0.04em;
+}
+.home-text{
+    text-align: right;
+}
+.desk{
+    display: block;
+}    
+}

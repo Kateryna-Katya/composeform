@@ -36,3 +36,8 @@ background: linear-gradient(90deg, #06d0f2 0%, #a263fe 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media only screen and (min-width: 1440px) {
+ body{
+  font-size: 18px;
+ } 
+}
