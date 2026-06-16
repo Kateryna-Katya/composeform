@@ -204,5 +204,44 @@ gap: 16px;
 .features-list-two{
 width: 360px;
 }
-
+}
+/* Game Flow */
+.game-wrapper{
+    background-image: url("/img/game/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+border-radius: 24px;
+    padding: 32px 16px;
+    width: 343px;
+    height: 307px;
+}
+.game-wrapper h2{
+border: 1px solid rgba(6, 208, 242, 0.14);
+    border-radius: 12px;
+    padding: 10px 14px;
+    width: 104px;
+background: rgba(6, 208, 242, 0.1);
+color: #06d0f2;
+margin-left: 0;
+}
+.game-wrapper h3{
+    text-align: left;
+}
+.game-wrapper p{
+    text-align: left;
+}
+@media only screen and (min-width: 1440px) {
+.game-wrapper{
+    background-image: url("/img/game/desk.png");
+    padding: 48px;
+    width: 1312px;
+    height: 364px;
+}
+.game-wrapper h2{
+    width: 130px;
+}
+.game-wrapper p{
+width: 592px;
+}    
 }
