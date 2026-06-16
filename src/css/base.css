@@ -20,6 +20,9 @@ h2{
       padding: 10px 14px;
       background: rgba(162, 99, 254, 0.1);
       margin-bottom: 16px;
+      margin-left: auto;
+      margin-right: auto;
+
 }
 h3{
 font-family: "Syne", sans-serif;
@@ -40,4 +43,11 @@ background: linear-gradient(90deg, #06d0f2 0%, #a263fe 100%);
  body{
   font-size: 18px;
  } 
+ h2{
+  font-size: 18px;
+ }
+ h3{
+  font-size: 58px;
+  line-height: 1.04;
+ }
 }
